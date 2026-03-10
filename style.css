@@ -26,3 +26,11 @@ p {
   50% { transform: translateX(-50%) rotate(2deg); }
   100% { transform: translateX(-50%) rotate(-2deg); }
 }
+
+.page{
+  display:none;
+}
+
+.show{
+  display:block;
+}
