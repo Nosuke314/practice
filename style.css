@@ -12,7 +12,7 @@ p {
 .light {
   width: 20px;
   transform-origin: top center;
-  animation: swing 3s inifinite ease-in-out;
+  animation: swing 3s infinite ease-in-out;
 }
 
 @keyframes swing{
