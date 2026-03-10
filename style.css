@@ -10,7 +10,7 @@ p {
   text-align: center;
 }
 .light {
-  width: 80px;
+  width: 20px;
   transform-origin: top center;
   animation: swing 3s inifinite ease-in-out;
 }
