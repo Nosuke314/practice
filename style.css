@@ -3,6 +3,13 @@ body {
   background-color: #303030;
   margin:0;
 }
+body.page2{
+  background-color: white;
+}
+
+body.page3{
+  background-color: #303030;
+}
 p {
   color: #ffffff;
   font-family: "游ゴシック体", "Yu Gothic", sans-serif;
