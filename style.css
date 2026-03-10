@@ -11,6 +11,10 @@ p {
 }
 .light img{
   width: 20px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   transform-origin: top center;
   animation: swing 3s infinite ease-in-out;
 }
