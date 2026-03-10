@@ -9,7 +9,7 @@ p {
   line-height: 2.5;
   text-align: center;
 }
-.light {
+.light img{
   width: 20px;
   transform-origin: top center;
   animation: swing 3s infinite ease-in-out;
