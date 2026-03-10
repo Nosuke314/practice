@@ -11,4 +11,12 @@ p {
 }
 .light {
   width: 80px;
+  transform-origin: top center;
+  animation: swing 3s inifinite ease-in-out;
+}
+
+@keyframes swing{
+  0% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  100% { transform: rotate(-2deg); }
 }
