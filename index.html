@@ -26,15 +26,23 @@
   </body>
   <script>
 let isOn = false;
+let Oncounter = false;
 Onbotton.onclick = function() {
   document.body.classList.add("light-on");
+  Oncounter = ture;
   isOn = ture;
+  showPage(page2);
 }
 Offbotton.onclick = function() {
   document.body.classList.remove("light-on");
   isOn = false;
+
+  if (Oncounter) {
+    showPage(page3);
+  }else{
+    showPage(page1);
+  }
 }
-let state = 1;
 
 const page1 = document.getElementById("page1");
 const page2 = document.getElementById("page2");
