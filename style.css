@@ -52,7 +52,7 @@ p {
   border-radius: 6px;
   cursor: pointer;
   border: 2px solid #222;
-  box-shadow: 0 4px 0 #222;
+  box-shadow: 4px 4px 0 #222;
   transition: 0.1s;
 }
 .switch:active {
