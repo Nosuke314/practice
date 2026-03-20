@@ -41,3 +41,20 @@ p {
 .show{
   display:block;
 }
+.switch{
+  display: inline-block;
+  width: 80px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid #222;
+  box-shadow: 0 4px 0 #222;
+  transition: 0.1s;
+}
+.switch:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 #222;
+}
