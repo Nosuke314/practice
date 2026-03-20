@@ -25,6 +25,15 @@
     </div>
   </body>
   <script>
+let isOn = false;
+Onbotton.onclick = function() {
+  document.body.classList.add("light-on");
+  isOn = ture;
+}
+Offbotton.onclick = function() {
+  document.body.classList.remove("light-on");
+  isOn = false;
+}
 let state = 1;
 
 const page1 = document.getElementById("page1");
