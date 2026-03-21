@@ -11,8 +11,8 @@
     <div class="light">
      <img id="lamp" src="無題225_20260310231135.png" alt="エラー">
     </div>
-    <div class="switch Offbotton">Off</div>
-    <div class="switch Onbotton">On</div>
+    <div id="Offbutton" class="switch">Off</div>
+    <div id="Onbutton" class="switch">On</div>
     <div id="page1" class="page">
      <p>とても暗い部屋だ。</p>
      <p>「やぁ、いらっしゃい。」</p>
@@ -51,12 +51,12 @@ function showPage(page) {
   page.classList.add("show");
   }
   
-document.getElementById("Onbotton").onclick = function() {
+document.getElementById("Onbutton").onclick = function() {
   onCounter = true;
   isOn = true;
   showPage(page2);
 }
-document.getElementById("Offbotton").onclick = function() {
+document.getElementById("Offbutton").onclick = function() {
   isOn = false;
 
   if(onCounter) {
