@@ -59,6 +59,7 @@ p {
   transform: translateY(4px);
   box-shadow: 0 0 0 #222;
 }
+/*idは必ずシャープです*/
 #Onbutton {
   left: 70%;
   trasform: translateX(-50%);
