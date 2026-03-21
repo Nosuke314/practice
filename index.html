@@ -52,13 +52,11 @@ function showPage(page) {
   }
   
 document.getElementById("Onbotton").onclick = function() {
-  document.body.classList.add("light-on");
   onCounter = true;
   isOn = true;
   showPage(page2);
 }
 document.getElementById("Offbotton").onclick = function() {
-  document.body.classList.remove("light-on");
   isOn = false;
 
   if(onCounter) {
