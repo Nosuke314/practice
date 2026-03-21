@@ -59,11 +59,11 @@ p {
   transform: translateY(4px);
   box-shadow: 0 0 0 #222;
 }
-.Onbotton {
+.Onbutton {
   left: 70%;
   trasform: translateX(-50%);
 }
-.Offbotton {
+.Offbutton {
   left: 30%;
   transform: translateX(-50%);
 }
