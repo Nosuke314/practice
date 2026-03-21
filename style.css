@@ -62,7 +62,7 @@ p {
 /*idは必ずシャープです*/
 #Onbutton {
   left: 70%;
-  trasform: translateX(-50%);
+  transform: translateX(-50%);
 }
 #Offbutton {
   left: 30%;
