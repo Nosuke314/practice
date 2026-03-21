@@ -39,43 +39,20 @@ function showPage(page) {
   page.classList.add("show");
   }
   
-Onbotton.onclick = function() {
+document.getElementById("Onbotton").onclick = function() {
   document.body.classList.add("light-on");
   onCounter = true;
   isOn = true;
   showPage(page2);
 }
-Offbotton.onclick = function() {
+document.getElementById("Offbotton").onclick = function() {
   document.body.classList.remove("light-on");
   isOn = false;
 
-  if (onCounter) {
+  if(onCounter) {
     showPage(page3);
   }else{
     showPage(page1);
   }
-}
-
-page1.classList.add("show");
-
-  if(state === 1){
-    page1.classList.remove("show");
-    page2.classList.add("show");
-    state = 2;
-  }
-
-  else if(state === 2){
-    page2.classList.remove("show");
-    page3.classList.add("show");
-    state = 3;
-  }
-
-  else{
-    page3.classList.remove("show");
-    page2.classList.add("show");
-    state = 2;
-  }
-
-}
 </script>
 </html>
