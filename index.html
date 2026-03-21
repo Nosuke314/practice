@@ -27,10 +27,22 @@
   <script>
 let isOn = false;
 let Oncounter = false;
+
+const page1 = document.getElementById("page1");
+const page2 = document.getElementById("page2");
+const page3 = document.getElementById("page3");
+
+function showPage(page) {
+  page1.classList.remove("show");
+  page2.classList.remove("show");
+  page3.classList.remove("show");
+  page.classList.add("show");
+  }
+  
 Onbotton.onclick = function() {
   document.body.classList.add("light-on");
-  Oncounter = ture;
-  isOn = ture;
+  Oncounter = true;
+  isOn = true;
   showPage(page2);
 }
 Offbotton.onclick = function() {
@@ -44,13 +56,7 @@ Offbotton.onclick = function() {
   }
 }
 
-const page1 = document.getElementById("page1");
-const page2 = document.getElementById("page2");
-const page3 = document.getElementById("page3");
-
 page1.classList.add("show");
-
-document.getElementById("lamp").onclick = function(){
 
   if(state === 1){
     page1.classList.remove("show");
