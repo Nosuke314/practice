@@ -1,16 +1,19 @@
 @charset "UTF-8";
+body {
+  opacity: 0;
+  transition: opasity 0.5s;
+  pointer-events: none;
+  position: absolute;
+  margin:0;
 body.page1{
   background-color: #303030;
-  margin:0;
 }
 body.page2{
   background-color: #ffffff;
-  margin:0;
 }
 
 body.page3{
   background-color: #303030;
-  margin:0;
 }
 p {
   color: #ffffff;
@@ -49,6 +52,8 @@ body.page2 p {
 
 .show{
   display:block;
+  opacity: 1;
+  pointer-events: auto;
 }
 .switch{
   display: inline-block;
