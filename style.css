@@ -86,6 +86,6 @@ body.page2 p {
   left: 30%;
   transform: translateX(-50%);
 }
-body.page4 switch {
+body.page4 .switch {
   display: none;
 }
