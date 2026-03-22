@@ -44,7 +44,7 @@ body.page2 p {
 
 .page{
   opacity: 0;
-  transition: opasity 0.5s;
+  transition: opasity 1s;
   pointer-events: none;
   position: absolute;
   width: 100%;
