@@ -42,6 +42,7 @@
   <script defer>
 let isOn = false;
 let onCounter = false;
+let history = "";
 
 const page1 = document.getElementById("page1");
 const page2 = document.getElementById("page2");
@@ -63,17 +64,24 @@ function showPage(page) {
   }
     
 document.getElementById("Onbutton").onclick = function() {
+  history += "on";
   onCounter = true;
   isOn = true;
   showPage(page2);
 }
 document.getElementById("Offbutton").onclick = function() {
+  history += "off";
   isOn = false;
 
   if(onCounter) {
     showPage(page3);
   }else{
     showPage(page1);
+  }
+  function checkSequence() {
+    if (history.endWith("offoffononoff")) {
+      showPag(page4);
+    }
   }
 }
   </script>
