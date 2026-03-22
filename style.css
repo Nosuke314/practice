@@ -1,17 +1,26 @@
 @charset "UTF-8";
-body {
+body.page1{
   background-color: #303030;
   margin:0;
 }
 body.page2{
   background-color: #ffffff;
+  margin:0;
 }
 
 body.page3{
   background-color: #303030;
+  margin:0;
 }
 p {
   color: #ffffff;
+  font-family: "游ゴシック体", "Yu Gothic", sans-serif;
+  font-size: 100%;
+  line-height: 2.5;
+  text-align: center;
+}
+body.page2 p {
+  color: #303030;
   font-family: "游ゴシック体", "Yu Gothic", sans-serif;
   font-size: 100%;
   line-height: 2.5;
