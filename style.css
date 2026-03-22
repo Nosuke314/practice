@@ -93,3 +93,7 @@ body.page4 .switch {
   width: 80%;
   height: auto;
 } 
+.checkBtn {
+  left: 50%;
+  transform: translateX(-50%);
+}
