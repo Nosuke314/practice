@@ -50,6 +50,7 @@ let history = "";
 const page1 = document.getElementById("page1");
 const page2 = document.getElementById("page2");
 const page3 = document.getElementById("page3");
+const page4 = document.getElementById("page4");
 
 function showPage(page) {
   page1.classList.remove("show");
@@ -71,10 +72,12 @@ document.getElementById("Onbutton").onclick = function() {
   onCounter = true;
   isOn = true;
   showPage(page2);
+  checkSequence();
 }
 document.getElementById("Offbutton").onclick = function() {
   history += "off";
   isOn = false;
+  checkSequence();
 
   if(onCounter) {
     showPage(page3);
