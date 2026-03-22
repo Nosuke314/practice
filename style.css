@@ -3,11 +3,11 @@ body {
   background-color: #303030;
   margin:0;
 }
-.page2{
+body.page2{
   background-color: #ffffff;
 }
 
-.page3{
+body.page3{
   background-color: #303030;
 }
 p {
