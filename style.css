@@ -14,7 +14,7 @@ body {
   background-color: #303030;
 }
 .page4{
-  background-color: #505050;
+  background: linear-gradient(to bottom, #303030, #ffffff);
 }
 p {
   color: #ffffff;
