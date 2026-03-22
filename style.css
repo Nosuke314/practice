@@ -5,6 +5,7 @@ body {
   pointer-events: none;
   position: absolute;
   margin:0;
+}
 body.page1{
   background-color: #303030;
 }
