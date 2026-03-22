@@ -44,7 +44,7 @@ body.page2 p {
 
 .page{
   opacity: 0;
-  transition: opasity 1s;
+  transition: opacity 1s;
   pointer-events: none;
   position: absolute;
   width: 100%;
@@ -52,7 +52,6 @@ body.page2 p {
 }
 
 .show{
-  display:block;
   opacity: 1;
   pointer-events: auto;
 }
