@@ -100,15 +100,13 @@ body.page4 .switch {
   display: block;
   margin: 0 auto 80px;
 } 
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 .checkBtn {
-  display: block;
-  left: 80%;
-  bottom: 10px;
-  transform: translateX(-50%);
 }
 .answer {
-  display: block;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
+  width: 50%;
 }
