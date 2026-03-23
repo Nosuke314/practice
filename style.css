@@ -103,3 +103,8 @@ body.page4 .switch {
   left: 80%;
   transform: translateX(-50%);
 }
+.box {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
