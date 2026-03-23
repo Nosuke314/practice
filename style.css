@@ -100,6 +100,6 @@ body.page4 .switch {
 } 
 .checkBtn {
   position: absolute;
-  left: 50%;
+  left: 80%;
   transform: translateX(-50%);
 }
