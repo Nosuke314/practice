@@ -101,13 +101,13 @@ body.page4 .switch {
   margin: 0 auto 80px;
 } 
 .checkBtn {
-  position: absolute;
+  display: block;
   left: 80%;
   bottom: 10px;
   transform: translateX(-50%);
 }
 .answer {
-  position: absolute;
+  display: block;
   left: 50%;
   bottom: 10px;
   transform: translateX(-50%);
