@@ -90,7 +90,7 @@ body.page4 .switch {
   display: none;
 }
 .item {
-  position: relateive;
+  position: relative;
   margin: 20px auto;
 }
 .item img {
