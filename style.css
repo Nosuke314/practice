@@ -89,7 +89,11 @@ body.page2 p {
 body.page4 .switch {
   display: none;
 }
-.item img{
+.item {
+  position: relateive;
+  margin: 20px auto;
+}
+.item img {
   width: 80%;
   height: auto;
 } 
