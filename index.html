@@ -124,7 +124,7 @@
     </div>
   </body>
   <script defer>
-    console.log("JS動いてる");
+   alert("ここ通過");
 let isOn = false;
 let onCounter = false;
 let history = "";
@@ -175,7 +175,7 @@ document.getElementById("Offbutton").onclick = function() {
     }
   }
 }
-    console.log("JSここまでおーけー");
+    alert("2個通過");
     const correctAnswers = ["メイロ", "マップ", "トリック", "イカ", "ハル"];
 const answeredCorrectly = [false, false, false, false, false];
 
@@ -183,6 +183,7 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
   btn.addEventListener("click", () => {
     const index = parseInt(btn.dataset.index) - 1;
 
+    alert("３個通過");
     // 同じindexを持つ全てのinputを取得
     const inputs = document.querySelectorAll(`.answer[data-index="${index+1}"]`);
     const userAnswer = inputs[0].value.trim(); // どれか1つの入力をチェック
@@ -201,6 +202,7 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
       alert("違います！");
     }
 
+    alert("４個通過");
     // 全問正解なら全ページのクリア画像表示
     if (answeredCorrectly.every(v => v)) {
       document.querySelectorAll(".clearImage").forEach(img => img.style.display = "block");
