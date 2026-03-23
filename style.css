@@ -101,10 +101,12 @@ body.page4 .switch {
 .checkBtn {
   position: absolute;
   left: 80%;
+  bottom: 10px;
   transform: translateX(-50%);
 }
 .box {
   position: absolute;
   left: 50%;
+  bottom: 10px;
   transform: translateX(-50%);
 }
