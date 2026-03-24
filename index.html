@@ -194,9 +194,9 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
     const index = parseInt(btn.dataset.index) - 1;
 
     alert("３個通過");
-    alert(inputs.length);
     // 同じindexを持つ全てのinputを取得
     const inputs = document.querySelectorAll(`.answer[data-index="${index+1}"]`);
+    alert(inputs.length);
     const userAnswer = inputs[0].value.trim(); // どれか1つの入力をチェック
 
     if (userAnswer === correctAnswers[index]) {
