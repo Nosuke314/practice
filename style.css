@@ -23,6 +23,9 @@ p {
   line-height: 2.5;
   text-align: center;
 }
+br {
+  line-height: 2.5;
+}
 body.page2 p {
   color: #303030;
   font-family: "游ゴシック体", "Yu Gothic", sans-serif;
