@@ -219,7 +219,7 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
     alert("４個通過");
     // 全問正解なら全ページのクリア画像表示
     if (answeredCorrectly.every(v => v)) {
-      document.querySelectorAll(".clearImage").forEach(img => img.style.display = "block");
+      document.getElementById("clearImage").forEach(img => img.style.display = "block");
     }
   });
 });
