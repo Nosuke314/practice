@@ -115,4 +115,8 @@ body.page4 .switch {
 .answer {
   width: 50%;
 }
-#clearImage
+#clearImage {
+  display: block;
+  width: 60%;
+  margin: 0 auto 80px;
+}
