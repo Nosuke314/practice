@@ -128,7 +128,7 @@
     <button class="checkBtn" data-index="5">確認</button>
   </div>
 
-  <img id="clearImage" src="Nano/無題244_20260314222155.png" alt="クリア画像" style="display:none; margin-top:20px;">
+  <img class="clearImage" src="Nano/無題244_20260314222155.png" alt="クリア画像" style="display:none; margin-top:20px;">
 
 </div>
     </div>
@@ -216,7 +216,7 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
 
     // 全問正解なら全ページのクリア画像表示
     if (answeredCorrectly.every(v => v)) {
-      document.getElementById("clearImage").forEach(img => img.style.display = "block");
+      document.querySelectorAll(".clearImage").forEach(img => img.style.display = "block");
     }
   });
 });
