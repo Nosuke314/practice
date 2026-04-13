@@ -46,7 +46,7 @@
 
   <div class="item">
     <img src="Nano/無題230_20260314205525.png" alt="問題1">
-    <div clas="row">
+    <div class="row">
      <input type="text" id="answer1" class="answer" data-index="1" placeholder="カタカナで回答">
      <button class="checkBtn" data-index="1">確認</button>
     </div>
@@ -197,7 +197,6 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
 
     // 同じindexを持つ全てのinputを取得
     const inputs = document.querySelectorAll(`.answer[data-index="${index+1}"]`);
-    alert(inputs.length);
     const userAnswer = inputs[0].value.trim(); // どれか1つの入力をチェック
 
     if (userAnswer === correctAnswers[index]) {
