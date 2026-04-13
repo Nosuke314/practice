@@ -188,7 +188,6 @@ document.getElementById("Offbutton").onclick = function() {
     }
   }
 }
-    alert("2個通過");
     const correctAnswers = ["メイロ", "マップ", "トリック", "イカ", "ハル"];
 const answeredCorrectly = [false, false, false, false, false];
 
@@ -196,7 +195,6 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
   btn.addEventListener("click", () => {
     const index = parseInt(btn.dataset.index) - 1;
 
-    alert("３個通過");
     // 同じindexを持つ全てのinputを取得
     const inputs = document.querySelectorAll(`.answer[data-index="${index+1}"]`);
     alert(inputs.length);
@@ -216,7 +214,6 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
       alert("違います！");
     }
 
-    alert("４個通過");
     // 全問正解なら全ページのクリア画像表示
     if (answeredCorrectly.every(v => v)) {
       document.getElementById("clearImage").forEach(img => img.style.display = "block");
