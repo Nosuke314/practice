@@ -195,8 +195,10 @@ document.querySelectorAll(".checkBtn").forEach(btn => {
     const index = parseInt(btn.dataset.index) - 1;
 
     // 同じindexを持つ全てのinputを取得
-    const inputs = document.querySelectorAll(`.answer[data-index="${index+1}"]`);
-    const userAnswer = inputs[0].value.trim(); // どれか1つの入力をチェック
+    const parent = btn.closest(".item");
+const input = parent.querySelector(".answer");
+
+const userAnswer = input.value.trim();
 
     if (userAnswer === correctAnswers[index]) {
       answeredCorrectly[index] = true;
