@@ -170,6 +170,10 @@ function showPage(page) {
   }
 }
     
+    function checkSequence(){
+      return history.includes("offoffononoff");
+    }
+    
 document.getElementById("Onbutton").onclick = function() {
   history += "on";
   onCounter = true;
@@ -182,11 +186,10 @@ document.getElementById("Offbutton").onclick = function() {
   isOn = false;
   checkSequence();
 
-  function checkSequence() {
-  if (history.includes("offoffononoff")) {
+  if (history.includes()) {
   showPage(page4);
+    return;
  }
-}
   if(onCounter) {
     showPage(page3);
   }else{
