@@ -178,18 +178,24 @@ document.getElementById("Onbutton").onclick = function() {
   history += "on";
   onCounter = true;
   isOn = true;
+
+  if (checkSequence()) {
+    showPage(page4);
+    return;
+  }
+  
   showPage(page2);
-  checkSequence();
 }
+    
 document.getElementById("Offbutton").onclick = function() {
   history += "off";
   isOn = false;
-  checkSequence();
 
-  if (history.includes()) {
-  showPage(page4);
+  if(checkSequence()){
+    showPage(page4);
     return;
- }
+  }
+  
   if(onCounter) {
     showPage(page3);
   }else{
